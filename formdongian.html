@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>simpleform2</title>
+</head>
+<body>
+    <form name="favourite" action="">
+        <fieldset>
+            <h2 style="text-align: center;color: #fff;background-color: orangered">SỞ THÍCH CỦA BẠN</h2>
+            <table>
+            <tr>
+                <td style="color: blue">Họ và tên</td>
+                <td colspan="3"><input type="text" name="yourname"></td>
+            </tr>
+                <tr>
+                    <td style="color: blue">Email</td>
+                    <td colspan="3"><input type="text" name="email"></td>
+                </tr>
+                <tr>
+                    <td style="color: blue">Sở thích</td>
+                    <td style="color: orangered"><label><input type="checkbox" name="hobby" value="sport">Thể thao</label></td>
+                    <td style="color: orangered"><label><input type="checkbox" name="hobby" value="music">Âm nhạc</label></td>
+                    <td style="color: orangered"><label><input type="checkbox" name="hobby" value="readbook">Đọc sách</label></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td style="color: orangered"><label><input type="checkbox" name="hobby" value="surfweb">Lướt web</label></td>
+                    <td style="color: orangered"><label><input type="checkbox" name="hobby" value="game">Chơi game</label></td>
+                    <td style="color: orangered"><label><input type="checkbox" name="hobby" value="film">Điện ảnh</label></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td style="color: orangered"><label><input type="checkbox" name="hobby" value="travel">Du lịch</label></td>
+                </tr>
+            </table>
+            <br>
+            <input type="submit" value="Gửi thông tin">
+            <input type="reset" value="Nhập lại">
+        </fieldset>
+    </form>
+    <br><br><br><br>
+    <form action="" name="register">
+        <fieldset>
+            <h2 style="color: blue;background-color: aqua">ĐĂNG KÝ HỌC VIÊN</h2>
+            <table>
+                <tr>
+                    <td style="color: blue">Họ và tên</td>
+                    <td colspan="2"><input type="text" name="fname"></td>
+                </tr>
+                <tr>
+                    <td style="color: blue">Ngày sinh</td>
+                    <td colspan="2"><input type="text" name="fname"></td>
+                </tr>
+                <tr>
+                    <td style="color: blue">Giới tính</td>
+                    <td>
+                        <input type="radio" name="gender" value="male"> Nam
+                        <input type="radio" name="gender" value="female"> Nữ
+                    </td>
+                </tr>
+                <tr>
+                    <td style="color: blue">Địa chỉ</td>
+                    <td colspan="2">
+                        <textarea style="resize: none"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="color: blue">Lớp</td>
+                    <td colspan="2">
+                        <select>
+                            <option disabled="disabled" selected>-Chọn-lớp-</option>
+                            <option value="java">Java</option>
+                            <option value="php">PHP</option>
+                            <option value="asp.net">ASP.net</option>
+                            </option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="color: blue">Email</td>
+                    <td colspan="2"><input type="text" name="fname"></td>
+                </tr>
+                <tr>
+                    <td style="color: blue">Điện thoại</td>
+                    <td colspan="2"><input type="text" name="fname"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" value="Đăng ký">
+                        <input type="reset" value="Nhập lại">
+                    </td>
+                </tr>
+            </table>
+
+        </fieldset>
+    </form>
+
+</body>
+</html>
